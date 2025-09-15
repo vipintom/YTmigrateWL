@@ -1,4 +1,4 @@
-# RepoScribe – YouTube 'Watch Later' Exporter & Cleaner
+# YTmigrateWL – YouTube 'Watch Later' Exporter & Cleaner
 
 RepoScribe is a powerful two-step tool designed to help you rescue, archive, and manage your YouTube "Watch Later" playlist. If your "Watch Later" has become an unmanageable backlog of hundreds or thousands of videos, this tool is for you.
 

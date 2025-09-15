@@ -15,7 +15,7 @@
   ],
   "license": "ISC",
   "main": "src/js/index.js",
-  "name": "YTmigrateWL",
+  "name": "ytmigratewl",
   "scripts": {
     "fetch-videos": "python3 main.py",
     "migrate-videos": "node src/js/index.js",
