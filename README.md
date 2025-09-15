@@ -33,8 +33,8 @@ Before you begin, ensure you have the following installed:
 **1. Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/RepoScribe.git
-cd RepoScribe
+git clone https://github.com/vipintom/YTmigrateWL.git
+cd YTmigrateWL
 ```
 
 **2. Configure your environment:**
@@ -52,7 +52,7 @@ cp .env.example .env
     If you have `direnv` installed, simply run the following command. It will automatically create a Python virtual environment, activate it, and make your `.env` variables available.
 
     ```bash
-    direnv allow
+    direnv allow .
     ```
 
 * **Manual Setup:**
@@ -116,8 +116,8 @@ The Python script (`fetch-videos`) runs first. It securely uses your browser's c
 
 Next, the interactive Node.js script (`migrate-videos`) runs. It will guide you through the following prompts:
 
-1. **Create a New Playlist:** It will use the generated CSV file to create a new, private playlist on your YouTube account named `WL_YYYY-MM-DD`.
-2. **Paste Your YouTube Cookie:** The script will then ask you to paste a cookie string. This is required for authentication to clear your playlist.
+1. **Paste Your YouTube Cookie:** The script will then ask you to paste a cookie string. This is required for authentication to your account.
+2. **Create a New Playlist:** It will use the generated CSV file to create a new, private playlist on your YouTube account named `WL_YYYY-MM-DD`.
 3. **Confirm Clearing 'Watch Later':** Finally, it will ask for explicit confirmation (`y/n`) before it begins clearing your "Watch Later" playlist. **This action is irreversible.**
 
 ---
