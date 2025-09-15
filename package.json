@@ -1,0 +1,26 @@
+{
+  "author": "",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.2.2",
+    "youtubei.js": "^15.1.1"
+  },
+  "description": "A tool to export and manage your YouTube 'Watch Later' playlist.",
+  "keywords": [
+    "youtube",
+    "playlist",
+    "watch-later",
+    "migrate",
+    "export"
+  ],
+  "license": "ISC",
+  "main": "src/js/index.js",
+  "name": "YTmigrateWL",
+  "scripts": {
+    "fetch-videos": "python3 main.py",
+    "migrate-videos": "node src/js/index.js",
+    "start": "npm run fetch-videos && npm run migrate-videos"
+  },
+  "type": "module",
+  "version": "0.1.0"
+}

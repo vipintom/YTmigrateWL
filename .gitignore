@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Node modules
+node_modules/
+
+
+# Virtual environments
+.venv
+
+.history
+.env
+*.csv
+PROJECT_STRUCTURE.md
